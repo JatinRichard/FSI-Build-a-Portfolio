@@ -1,0 +1,160 @@
+*{
+    
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/**
+* 1. Centers the content.
+* 2. Feel free to change this, this sets the width
+* 3. Adds some internal 'padding' to the div
+*/
+.wrapper {
+    margin-right: auto; /* 1 */
+    margin-left: auto; /* 1 */
+    max-width:1160px; /* 2 */
+    padding-right: 10px; /* 3 */
+    padding-left: 10px; /* 3 */
+    }
+p{
+    line-height:1.5em;
+    font-size: large;
+    
+}
+.dp{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+.intro{
+    
+    font-size: larger;
+}
+.bg{
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.container-1{
+
+  display: flex;
+  margin: 50px;
+
+}
+
+.ttl{
+
+    font-size: x-large;
+}
+
+.projects{
+    border-color: rgba(3, 12, 54, 0.556);
+    border-style: groove;
+    margin-left: 570px;
+    background-color: #6f04045e;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    width: 700px;
+    height: 200px;
+    padding: 20px;
+    padding-right: 40px;
+    line-height:1.6em;
+  }
+
+.about{
+    border-color: rgba(3, 3, 54, 0.914);
+    border-style: groove;
+    margin: 50px;
+    background-color: #6f04045e;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    width: 1400px;
+    padding: 20px;
+    padding-right: 40px;
+    align-content: center;
+
+}
+.experience{
+  
+  
+  margin-left: 120px;
+}
+h1{
+
+  color: rgb(255, 255, 255);
+  font-size:xx-large;
+  margin-top: 35px;
+  margin-left: 25px;
+
+}
+h2, h3, li, p, u{
+
+  color: rgb(255, 255, 255);
+  margin-left: 25px;
+
+}
+.logo{
+  margin-top: 25px;
+  margin-left: 25px;
+  width:60px; 
+  height:60px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+
+}
+
+.interest{
+
+    display: flex;
+
+}
+.header {
+    overflow: hidden;
+    background-color: #521818;
+    padding: 0px;
+    margin: 0px;
+    height: 100px;
+    display: flex;
+
+  }
+
+  .header a {
+    margin: 25px;
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 35px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+    .name {
+    font-size: xxx-large;
+    
+  }
+  
+  h3{
+
+    font-size: x-large;
+  }
+  .header a.active {
+    background-color: rgb(6, 16, 26);
+    color: white;
+  }
+  
